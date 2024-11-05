@@ -136,11 +136,13 @@ Metrics tracked include:
 3. **Analysis**
    - Review CSV output files
    - Compare the performance of different policies
-   - Identify optimal configurations and system efficiencies
+   - Identify optimal configurations and system efficiencies 
 
 ## Requirements
 - **C++ Standard Library**
 - **GCC or equivalent C++ compiler**
 - **CSV viewer** (optional, for analysis)
 
-This project provides a robust foundation for evaluating job scheduling policies in distributed environments, aiding in optimizing resource management and improving overall system performance.
+
+To run the simulation, simply run the program. The program will create a `MasterScheduler` with 128 worker nodes, read jobs from an input file, and simulate for a specified number of days. The user has the option to print the jobs to console, after which, the results will be written to a CSV file for further analysis.
+
