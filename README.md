@@ -3,7 +3,7 @@
 **Dev:** Aman [iitgcs_24061213]
 
 ## Overview
-IITG2406-01T1_JobScheduler is a distributed job scheduling simulator designed to evaluate multiple scheduling policies across a simulated cluster of worker nodes. This system models real-world scheduling scenarios by managing CPU and memory allocation, allowing for performance analysis with various queueing and resource allocation strategies.
+This program is a distributed job scheduling simulator designed to evaluate multiple scheduling policies across a simulated cluster of worker nodes. This system models real-world scheduling scenarios by managing CPU and memory allocation, allowing for performance analysis with various queueing and resource allocation strategies.
 
 ## System Architecture
 
@@ -32,7 +32,7 @@ The `Job` class defines individual jobs with the following attributes and functi
 Each `WorkerNode` represents an individual node with:
 - **Resources**:
   - CPU cores (individually tracked)
-  - Memory in GB (granular tracking)
+  - Memory (in GB)
   - Utilization status
 - **Operations**:
   - Checks resource availability
