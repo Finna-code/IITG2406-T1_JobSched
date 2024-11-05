@@ -1,8 +1,6 @@
-# IITG2406-T1_JobSched
-
 # IITG2406-01T1_JobScheduler (Project 3)
 
-**Developer:** Aman [iitgcs_24061213]
+**Dev:** Aman [iitgcs_24061213]
 
 ## Overview
 IITG2406-01T1_JobScheduler is a distributed job scheduling simulator designed to evaluate multiple scheduling policies across a simulated cluster of worker nodes. This system models real-world scheduling scenarios by managing CPU and memory allocation, allowing for performance analysis with various queueing and resource allocation strategies.
