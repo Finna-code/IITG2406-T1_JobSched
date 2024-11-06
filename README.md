@@ -1,4 +1,4 @@
-# IITG2406-01T1_JobScheduler (Project 3)
+# IITG2406-01_JobScheduler (Project 3)
 
 **Dev:** Aman [iitgcs_24061213]
 
@@ -143,6 +143,12 @@ Metrics tracked include:
 - **GCC or equivalent C++ compiler**
 - **CSV viewer** (optional, for analysis)
 
+## Function / Program Description
+To run the simulation, simply execute the c++ program. The program will create a `MasterScheduler` with 128 worker nodes, read jobs from an input file, and simulate for the number of days specified by the user. The user will be given the option to print the assigned jobs to the console, after which, the results will be written to a CSV file for further analysis.
 
-To run the simulation, simply run the program. The program will create a `MasterScheduler` with 128 worker nodes, read jobs from an input file, and simulate for a specified number of days. The user has the option to print the jobs to console, after which, the results will be written to a CSV file for further analysis.
+## Graphical Representation
+After running a 7-day test simulation, data was extracted, processed, and visualized in graphs, with key observations documented [here](https://docs.google.com/document/d/1X9xfebqf-s9n5CLhpbNDHrmWkNh-FYddBX4a4Jed29E/edit?usp=sharing)
 
+## Conclusion
+Through this project, I gained practical insights into distributed job scheduling and resource allocation strategies. Analyzing the efficiency of various scheduling policies highlighted the complexities of balancing resource utilization and system performance, which is crucial for optimizing distributed systems.
+Moreover, I also applied concepts of file handling as well as data visualisation to analyse and understand job scheduling.
